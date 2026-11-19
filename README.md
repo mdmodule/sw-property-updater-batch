@@ -6,6 +6,8 @@
 
 ![概览](images/overview.png)
 
+![16 项标准属性在工程图标题栏中的对应位置](images/titleblock.png)
+
 ## 核心定位：批量文件夹 · 递归遍历 · 文件名拆分 → 属性填写
 
 **单文件版**需要手动打开每个文件再运行宏；**批量版**直接选择一个文件夹，自动处理其中的所有 SW 文件（包括子文件夹）。
@@ -95,11 +97,18 @@
 - SolidWorks 2025（理论上兼容 2020+）
 - 启用宏的 SolidWorks 环境
 
-## 安装
+## 下载与安装
 
-1. 下载 `PropertyUpdaterBatch.bas`
-2. 在 SolidWorks 中：`工具` → `宏` → `新建` → 粘贴代码 → 保存为 `.swp`
-3. 可选：添加到 SolidWorks 自定义工具栏
+**直接下载（推荐）**：[PropertyUpdaterBatch.swp](https://github.com/mdmodule/sw-property-updater-batch/releases/latest/download/PropertyUpdaterBatch.swp) —— 编译好的宏，48 KB
+
+1. 下载 `PropertyUpdaterBatch.swp`
+2. 打开 SolidWorks → `工具` → `宏` → `运行` → 选择它
+3. 在文件夹对话框里选要处理的工程文件夹 → 等处理完成
+4. 可选：添加到 SolidWorks 自定义工具栏
+
+**想改代码**：下载 `PropertyUpdaterBatch.bas` → `工具` → `宏` → `新建` → 粘贴 → 另存为 `.swp`
+
+全部版本见 [Releases](https://github.com/mdmodule/sw-property-updater-batch/releases)。
 
 ## 许可
 
